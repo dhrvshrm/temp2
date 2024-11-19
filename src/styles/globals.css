@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans:wght@700&display=swap");
+
+body {
+  margin: 0;
+}
+
+.font-noto {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.transition-opacity {
+  transition: opacity 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-track,
+.qna-pre::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb,
+.qna-pre::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+
+.qna-pre::-webkit-scrollbar {
+  height: 5px;
+}
